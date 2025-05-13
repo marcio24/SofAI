@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./server.js",
-    "dev": "nodemon ./server.js"
+    "dev": "nodemon ./server.js",
+    "reload": "npm run dev -- --watch index.html"
   },
   "repository": {
     "type": "git",

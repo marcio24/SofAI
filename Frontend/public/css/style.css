@@ -5,27 +5,102 @@
     margin: 0;
     padding: 0;
 }
+  
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #06141b;
+    max-width: 400px;
+}
 nav{
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+    position: fixed;
 }
-body{
-    background-color: #06141b;
+textarea {
+    font-size: 16px;
+    padding: 1%;
+    border-radius: 30px;     
 }
-
+.container{
+    height: 100% ;
+    padding-bottom: 85px;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+}
 .navContainer{
     background-color: #d64218;
-    height: 60px;
-    width: 370px;
+    height: 50px;
+    width: 100vw;
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px;
 }
-.Name{
-    margin-left: 10px;
+.Name,  .Opcao{
+    margin: 10px;
     color: white;
     font-weight: bold;
+}
+.Opcao{
+    font-size: 12px;
+}
+
+.containerRMessage{
+    display: flex;
+    justify-content: flex-end;
+}
+.containerLMessage{
+    display: flex;
+    justify-content: flex-start;
+}
+.Message{
+    width: auto;
+    max-width: 190px;
+    padding: 8px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+.RCollor{
+    background-color: rgb(217, 253, 211);		
+}
+.LCollor{
+    background-color: rgb(255, 255, 255);
+}
+.MessageSpan{
+    word-wrap: break-word;
+    color: rgb(39, 39, 39);
+    font-size: 15px;
+    font-weight: light;
+}
+
+.inpText{
+    height: 80px;
+    width: 100vw;
+    max-width: 400px;
+    position: fixed; 
+    bottom: 0; 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+}
+  
+.InputMessage{
+    width: 80%;
+    height: 20px;
+    margin-top: 10px;  
+    margin-left: 15px; 
+}
+
+.IconSend{
+    width: 30px;
+    margin-top: 9px;
+    margin-right: 10px;
 }

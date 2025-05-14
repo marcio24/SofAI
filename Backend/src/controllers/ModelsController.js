@@ -11,5 +11,5 @@ const ListaModelos = async (req, res) => {
 }
 
 module.exports = {
-    ListaModelos
+ListaModelos
 }

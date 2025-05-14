@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="manifest" href="./manifest.json">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon">
+    <title>Chat-SofAI</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="navContainer">
                 <p class="Name">Olá Sophia</p>
+                <p class="Opcao" id="Modelloaded">ModelLoaded</p>
+                <a class="Opcao">Limpar conversa</a>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container">
-            
+        <div class="container">   
+        <div class="containerRMessage">
+            <div class="Message RCollor">
+                <span class="MessageSpan">Com essa abordagem, a div será alinhada à borda direita do container sem precisar usar o translate.
+
+                    Lembre-se de que, se você quiser manter a div alinhada à borda direita mesmo quando o texto for menor do que o tamanho fixo, você pode usar flex-shrink no container da div.
+                    
+                    Agora, se você quiser aplicar um tamanho fixo à div, mas continuar permitindo que ela se adapte ao texto, você pode usar flex-basis no container da div e aplicar um tamanho fixo à div.
+                    
+                    Aqui está o código atualizado: </span>
+            </div>    
+         </div>
+         <div class="containerLMessage">
+            <div class="Message LCollor">
+                <span class="MessageSpan">MessageHere hbskhsdbkshjbvksd vksv ks vsbv kbsv smnv skjhskdhv sdkjv skjhvskjhv skjvc sdkjcn </span>
+            </div>    
+        </div> 
+        <div class="containerLMessage">
+            <div class="Message LCollor">
+                <span class="MessageSpan">MessageHere hbskhsdbkshjbvksd vksv ks vsbv kbsv smnv skjhskdhv sdkjv skjhvskjhv skjvc sdkjcn </span>
+            </div>    
+        </div> 
+        <div class="containerRMessage">
+            <div class="Message RCollor">
+                <span class="MessageSpan">Com essa abordagem, a div será alinhada à borda direita do container sem precisar usar o translate.
+
+                    Lembre-se de que, se você quiser manter a div alinhada à borda direita mesmo quando o texto for menor do que o tamanho fixo, você pode usar flex-shrink no container da div.
+                    
+                    Agora, se você quiser aplicar um tamanho fixo à div, mas continuar permitindo que ela se adapte ao texto, você pode usar flex-basis no container da div e aplicar um tamanho fixo à div.
+                    
+                    Aqui está o código atualizado: </span>
+            </div>    
+         </div>
         </div>
     </main>
+    <footer>
+        <div class="inpText">
+            <textarea name="entrada" class="InputMessage" placeholder="Insira sua pergunta aqui:"></textarea>
+            <img src="./assets/send.png" class="IconSend">
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

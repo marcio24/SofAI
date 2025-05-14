@@ -1,0 +1,21 @@
+{ 
+
+    "name": "SofAI-WebApp", 
+  
+    "short_name": "SofAI", 
+
+  "start_url": "http://127.0.0.1:5500/public/index.html", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+     "src": "./assets/LogoCompleta.png",
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }] 
+
+}
